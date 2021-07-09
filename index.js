@@ -3,10 +3,14 @@ class EasyClock{
         this.trackpoints = []
     }
     setTrackpoint(id){
+        if(Date.now()>0){
         this.trackpoints[id] = Date.now();
+        }
     }
     getTimeSinceTrackpoint(id){
-        return (Date.now()-this.trackpoints[id])
+        if((Date.now()-this.trackpoints[id])>0){
+            return (Date.now()-this.trackpoints[id])
+        }else{return 0}
     }
 }
 

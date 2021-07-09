@@ -1,6 +1,7 @@
 # easyclock
-Simple npm package to track time.
-
+Simple npm package to track time.   
+You can add trackpoints at any time.   
+You can get the amount of time that passed since a trackpoint.
 
 
 
