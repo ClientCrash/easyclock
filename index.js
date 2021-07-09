@@ -8,10 +8,6 @@ class EasyClock{
     getTimeSinceTrackpoint(id){
         return (Date.now()-this.trackpoints[id])
     }
-    
-    
-
-
 }
 
 module.exports = EasyClock
