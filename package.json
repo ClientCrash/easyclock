@@ -1,0 +1,23 @@
+{
+  "name": "easyclock",
+  "version": "1.0.0",
+  "description": "A simple package to track time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClientCrash/easyclock.git"
+  },
+  "keywords": [
+    "time",
+    "clock"
+  ],
+  "author": "ClientCrash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClientCrash/easyclock/issues"
+  },
+  "homepage": "https://github.com/ClientCrash/easyclock#readme"
+}
