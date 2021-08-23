@@ -1,5 +1,6 @@
 ![npm](https://img.shields.io/npm/v/easyclock?style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/easyclock?style=flat-square)
+![npm](https://img.shields.io/npm/dw/easyclock?style=flat-square)
 # easyclock
 Simple npm package to track time.   
 You can add trackpoints at any time.   
