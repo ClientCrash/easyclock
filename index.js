@@ -4,7 +4,7 @@ class EasyClock{
     }
     setTrackpoint(id){
         if(Date.now()>0){
-        this.trackpoints[id] = Date.now();
+            this.trackpoints[id] = Date.now();
         }
     }
     getTimeSinceTrackpoint(id){
@@ -15,12 +15,12 @@ class EasyClock{
     addTrackpointXTimeAgo(id,timeago){
         if(Date.now()>0){
             this.trackpoints[id] = Date.now()-timeago;
-            }
+        }
     }
     addTrackpointAtTime(id,time){
         if(Date.now()>0){
             this.trackpoints[id] = time;
-            }
+        }
     }
 }
 
